@@ -1,0 +1,31 @@
+------------POST-----------
+http://127.0.0.1:5000/musicas
+---------------------------
+Body - raw - JSON
+
+{
+  "nome": "Bohemian Rhapsody",
+  "artista": "Queen",
+  "genero": "Rock"
+}
+
+
+------------GET-----------
+http://127.0.0.1:5000/musicas
+http://127.0.0.1:5000/musicas/1
+---------------------------
+
+------------UPDATE-----------
+http://127.0.0.1:5000/musicas/1
+-----------------------------
+{
+  "nome": "Bohemian Rhapsody",
+  "artista": "Queen",
+  "genero": "Rock Clássico"
+}
+
+
+------------DELETE-----------
+http://127.0.0.1:5000/musicas/1
+
+-----------------------------
